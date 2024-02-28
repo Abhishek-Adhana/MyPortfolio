@@ -608,12 +608,17 @@ footer{
 
    .left img{
         height: 300px;
+        margin-top: 250px;
         width: 300px;
     }
 
     .right{
         /* border: 2px solid red; */
         width: 420px;
+    }
+
+    #about{
+        margin-top: 200px;
     }
 
     .about-content{
@@ -680,7 +685,7 @@ footer{
         width: 400px;
         position: relative;
         right: 130px;
-        margin-top: -50px;
+        margin-top: 100px;
         
         text-align:justify;
     }
@@ -690,16 +695,16 @@ footer{
     }
     
     #skills{
-        height: 100vh;
+        height: 120vh;
         width: 400px;
-        margin-top: 230px;
+        margin-top: 550px;
     }
     
     .skills-content{
         display: flex;
         flex-direction: column;
         width: 350px;
-        margin-top: 70px;
+        margin-top: 170px;
     }
     #skills-left{
         height: 950px;
@@ -718,6 +723,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    #lang-tech{
+        height: 400px;
+    }
     .tech2{
         margin-top: -70px;
     }
@@ -729,10 +737,11 @@ footer{
         top: 130px;
         left:-50px ;
         margin-top: 50px;
+        /* border: 2px solid red; */
     }
     
     #projects{
-        margin-top: 380px;
+        margin-top: 640px;
         width: 400px;
         padding: 35px;
     }
@@ -751,6 +760,7 @@ footer{
         position: relative;
         top: 0px;
         left: 75px;
+        margin-top: 100px;
     }
     #projects-left img{
         height: 100%;
@@ -763,7 +773,7 @@ footer{
         padding: 30px;
         position: relative;
         left:-40px ;
-        /* margin-top: px; */
+        margin-top: 80px;
         /* border: 2px solid blue; */
         text-align: center;
         text-decoration: dotted;
@@ -778,7 +788,7 @@ footer{
     }
 
     #contact{
-        margin-top: 100px;
+        margin-top: 400px;
     }
     .contact-info-upper-container{
         display: flex;
@@ -805,3 +815,7 @@ footer{
 }
 
    
+
+
+
+
